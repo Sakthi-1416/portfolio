@@ -19,7 +19,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#Aboutme"
                   className="text-(--accent-light) hover:text-(--accent) transition"
                 >
                   About Me
@@ -27,7 +27,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#Portfolio"
                   className="text-(--accent-light)r:text-[var(--accent)] transition"
                 >
                   Portfolio
@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#Gallery"
                   className="text-(--accent-light) hover:text-(--accent) transition"
                 >
                   Gallery
@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="0"
                   className="text-(--accent-light) hover:text-(--accent) transition"
                 >
                   Contact 

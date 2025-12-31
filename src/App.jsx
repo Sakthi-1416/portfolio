@@ -9,17 +9,20 @@ import Aboutme from './Components/Aboutme';
 import CollaborateSection from './Components/CollaborateSection';
 import Footer from './Components/Footer';
 import VideoGallery from './Components/VideoGallery';
+import InstagramFloat from './Components/InstagramFloat';
 
 
 const App = () => {
   return (
     <>
+  
     <Header/>
     <Corousal/>
     <Aboutme/>
     <Projects/>
     <VideoGallery/>
     <CollaborateSection/>
+    <InstagramFloat/>
     <Footer/>
     </>
   )

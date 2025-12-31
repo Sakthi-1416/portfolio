@@ -107,7 +107,7 @@ const CollaborateSection = () => {
             whileTap={{ scale: 0.95 }}
             type="submit"
             disabled={loading}
-            className={`w-full py-3 !rounded-3xl font-semibold transition ${
+            className={`w-full py-3 rounded-3xl font-semibold transition ${
               loading
                 ? "bg-neutral-700 cursor-not-allowed"
                 : "bg-linear-to-r from-pink-500 to-orange-400 hover:opacity-90"

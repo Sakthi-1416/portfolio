@@ -1,7 +1,9 @@
 import React from "react";
-import sample1 from "../assets/911.jpeg";
-import sample2 from "../assets/coverimg2.jpeg";
-import sample3 from "../assets/coverimg3.jpeg";
+import post1 from '../assets/slide1.JPEG'
+import post2 from '../assets/slide2.JPG'
+import post3 from '../assets/slide3.jpeg'
+
+
 
 const Carousel = () => {
   return (
@@ -27,7 +29,7 @@ const Carousel = () => {
 
       {/* Slides */}
       <div className="carousel-inner">
-        {[sample1, sample2, sample3].map((img, idx) => (
+        {[post1, post2, post3].map((img, idx) => (
           <div
             key={idx}
             className={`carousel-item ${idx === 0 ? "active" : ""}`}
@@ -35,7 +37,7 @@ const Carousel = () => {
             <img
               src={img}
               alt={`Slide ${idx + 1}`}
-              className="d-block w-full h-[50vh] sm:h-[65vh] md:h-[75vh] lg:h-[90vh] object-cover object-center transition-all duration-300"
+              className="d-block w-full h-[90vh] sm:h-[65vh] md:h-[75vh] lg:h-[90vh] object-cover  transition-all duration-300"
             />
 
             {/* Caption */}
