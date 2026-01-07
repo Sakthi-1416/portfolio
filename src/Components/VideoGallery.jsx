@@ -27,6 +27,7 @@ const videos = [
     link: "https://www.instagram.com/",
   },
 ];
+// 
 
 const VideoGallery = () => {
   const videoRefs = useRef([]);
